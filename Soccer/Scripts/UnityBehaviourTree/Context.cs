@@ -13,8 +13,6 @@ public class Context : BehaviourState {
     }
 
     public Vector3 getAcceleration (Vector3 target) {
-        Vector3 v = getMyVelocity ();
-
         if (target.x > 238) {
             target.x = 238;
         } else if (target.x < 62) {
@@ -29,7 +27,7 @@ public class Context : BehaviourState {
 
         UnityEngine.Debug.DrawLine (self.transform.position, target);
 
-        Vector3 a = target - (self.transform.position + v) - v;
+        Vector3 a = target - self.transform.position;
 
         if (Vector3.Magnitude (a) > 1) {
             return a.normalized;
