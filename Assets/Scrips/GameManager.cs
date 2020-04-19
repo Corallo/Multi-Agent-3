@@ -56,15 +56,15 @@ public class GameManager : MonoBehaviour {
             car_sphere.GetComponent<Renderer>().material.SetColor("_Color", my_color);
 
             GameObject goal_sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-
+            
             nominal_pos = CircularConfiguration(i, no_of_cars, 0.8f);
             goal_sphere.transform.position = GetCollisionFreePosNear(nominal_pos, 50f);
 
             goal_sphere.transform.localScale = Vector3.one * 3f;  
             goal_sphere.GetComponent<Renderer>().material.SetColor("_Color", my_color);
-
+            DestroyImmediate(goal_sphere.GetComponent<Collider>());
             // Assign goal point
-            if(new_car.tag == "Car")
+            if (new_car.tag == "Car")
             {
                 UnityStandardAssets.Vehicles.Car.CarAI new_AI;
                 new_AI = new_car.GetComponent<UnityStandardAssets.Vehicles.Car.CarAI>();
@@ -73,11 +73,13 @@ public class GameManager : MonoBehaviour {
             }
             if (new_car.tag == "Drone")
             {
-                Debug.Log("stuff");
+                //Debug.Log("stuff");
                 DroneAI new_AI;
+                new_car.layer = 10;
                 new_AI = new_car.GetComponent<DroneAI>();
                 new_AI.my_goal_object = goal_sphere;
                 new_AI.terrain_manager_game_object = terrain_manager_game_object;
+                new_AI.skipper = i * 10;
             }
 
 
