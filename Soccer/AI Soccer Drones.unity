@@ -493,6 +493,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
     - target: {fileID: 1478294031488993883, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,28 +576,8 @@ PrefabInstance:
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_TagString
-      value: Drone
+      value: Red
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_Name
@@ -587,7 +587,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 1439908170}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
@@ -723,18 +723,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1252157413}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &912192421 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478294031488993882, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1252157413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912192417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59c1d017e0954fadaea1f19e2accc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &983915488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -884,6 +872,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993883, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,27 +955,7 @@ PrefabInstance:
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_TagString
-      value: Drone
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
+      value: Blue
       objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
@@ -978,7 +966,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 912192421}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
@@ -1021,6 +1009,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: directions_game_object
+      value: 
+      objectReference: {fileID: 1873382424}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: isGoalie
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993883, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1086,55 +1118,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Blue
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: directions_game_object
-      value: 
-      objectReference: {fileID: 1873382424}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: isGoalie
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 912192421}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
@@ -1228,18 +1216,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 785123818}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1439908170 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478294031488993882, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 785123818}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439908165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59c1d017e0954fadaea1f19e2accc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1599067004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1247,6 +1223,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993883, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1310,27 +1306,7 @@ PrefabInstance:
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_TagString
-      value: Drone
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
@@ -1341,7 +1317,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 1772748961}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
@@ -1401,6 +1377,34 @@ PrefabInstance:
       propertyPath: ball
       value: 
       objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: directions_game_object
+      value: 
+      objectReference: {fileID: 1873382424}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
     - target: {fileID: 1478294031488993883, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1464,36 +1468,8 @@ PrefabInstance:
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_TagString
-      value: Drone
+      value: Blue
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: directions_game_object
-      value: 
-      objectReference: {fileID: 1873382424}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_Name
@@ -1503,7 +1479,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 1985697047}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
@@ -1545,18 +1521,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1599067004}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1772748961 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478294031488993882, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1599067004}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772748956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59c1d017e0954fadaea1f19e2accc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1788454091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,18 +1603,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2086385585}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1824783325 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478294031488993882, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 2086385585}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824783320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59c1d017e0954fadaea1f19e2accc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1873382424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,18 +1672,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1689050586}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1985697047 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1478294031488993882, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1689050586}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985697042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59c1d017e0954fadaea1f19e2accc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2086385585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1739,6 +1679,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: terrain_manager_game_object
+      value: 
+      objectReference: {fileID: 1358011048}
+    - target: {fileID: 0}
+      propertyPath: own_goal
+      value: 
+      objectReference: {fileID: 904526769}
+    - target: {fileID: 0}
+      propertyPath: other_goal
+      value: 
+      objectReference: {fileID: 283833300}
+    - target: {fileID: 0}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 248749929}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: isGoalie
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1478294030950289141, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_Layer
@@ -1807,36 +1771,12 @@ PrefabInstance:
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_TagString
-      value: Drone
+      value: Red
       objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: m_Layer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: terrain_manager_game_object
-      value: 
-      objectReference: {fileID: 1358011048}
-    - target: {fileID: 0}
-      propertyPath: own_goal
-      value: 
-      objectReference: {fileID: 904526769}
-    - target: {fileID: 0}
-      propertyPath: other_goal
-      value: 
-      objectReference: {fileID: 283833300}
-    - target: {fileID: 0}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 248749929}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: isGoalie
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1478294031488993887, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
@@ -1847,7 +1787,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drone
       value: 
-      objectReference: {fileID: 1824783325}
+      objectReference: {fileID: 0}
     - target: {fileID: 5047294300673924720, guid: daca3a4f5a4e04af4be6c10f4b4f78f1,
         type: 3}
       propertyPath: terrain_manager_game_object
