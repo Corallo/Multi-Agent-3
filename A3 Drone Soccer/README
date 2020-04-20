@@ -1,0 +1,7 @@
+In order to get our script to run:
+
+	- include UnityBehaviourTree in the Scripts folder
+	- replace DroneAISoccer_red.cs
+	- add "new_AI_gr2.id = i % 3;" to line 155 in GameManagerSoccer
+	
+This works for the red team only, since the Context of the Behaviour Tree has a DroneAISoccer_red object that is used.
