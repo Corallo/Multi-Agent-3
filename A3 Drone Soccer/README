@@ -3,5 +3,7 @@ In order to get our script to run:
 	- include UnityBehaviourTree in the Scripts folder
 	- replace DroneAISoccer_red.cs
 	- add "new_AI_gr2.id = i % 3;" to line 155 in GameManagerSoccer
+	- create a new layer on level 9 called goal and add the blue goal to it
+	- if you're using panda, uncomment line 40 in DroneAISoccer_red.cs so the panda script assigned to the prefac is disabled for our team
 	
 This works for the red team only, since the Context of the Behaviour Tree has a DroneAISoccer_red object that is used.

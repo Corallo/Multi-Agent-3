@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Panda;
 
 //namespace UnityStandardAssets.Vehicles.Car
 //{
@@ -36,6 +37,7 @@ public class DroneAISoccer_red : MonoBehaviour {
     public Vector3 position_ball_old;
 
     private void Start () {
+    	//GetComponent<PandaBehaviour>().enabled = false;
         // get the car controller
         m_Drone = GetComponent<DroneController> ();
         terrain_manager = terrain_manager_game_object.GetComponent<TerrainManager> ();
@@ -108,7 +110,7 @@ public class DroneAISoccer_red : MonoBehaviour {
         );
 
         Selector decideGoalieAction = new Selector ("decideGoalieAction",
-        	// defendAndIntercept,
+            //defendAndIntercept,
             defendAndAttack,
             new takeDefaultPosition ()
         );
